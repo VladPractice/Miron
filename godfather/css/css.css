@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab'); /* Шрифт для коллажа */
+
+
+.img /* Лого */	{
+	width: 180px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+
+.links	/* ссылки на соц сети */ {
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-right: 15px;
+	margin-top: -30px;
+}
+
+.links:hover	{
+	width: 50px;
+	height: 50px;
+	margin-top: -40px;
+	transition: 0.3s;
+}
+
+#google /* ссылки на соц сети */	{
+	background-image: url(https://img.icons8.com/nolan/64/000000/google-logo.png);
+	background-size: cover;
+}
+
+
+#youtube /* ссылки на соц сети */	{
+	background-image: url(https://img.icons8.com/nolan/64/000000/youtube-play.png);
+	background-size: cover;
+}
+
+#facebook /* ссылки на соц сети */	{
+	background-image: url(https://img.icons8.com/nolan/64/000000/facebook.png);
+	background-size: cover;
+}
+
+#instagram	 /* ссылки на соц сети */ {
+	background-image: url(https://img.icons8.com/nolan/64/000000/instagram-new.png);
+	background-size: cover;
+	margin-right: 0px;
+}
+
+.us /* Коллаж */	{
+	border: 1px solid white;
+	height: 380px;
+	position: relative;
+	opacity: 0.9;	
+	
+}
+
+.p /* Подпись к коллажу */	{
+	color: white;
+	text-align: center;
+	font-family: 'Kelly Slab', cursive;
+	font-size: 24px;
+	background-color: black;
+	opacity: 0.8;
+	vertical-align: bottom;
+	padding-top: 5px;
+	margin-top: -5px;
+}
+
+.miron /* Сердце = Мирон */	{
+	border-radius: 50%;
+	background-image: url(https://img.icons8.com/ios/50/000000/pixel-heart.png);
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+.family /* Див Саши и Остапа */	{
+	height: 120px;
+	border: 1px solid white;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.sasha	/* Ава Саши */{
+	float: left;
+	margin-left: 22%;
+	border-radius: 50%;
+	background-image: url(https://img.icons8.com/office/80/000000/guest-female.png);
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+	margin-top: -50px;
+}
+
+.ostap /* Ава Остапа */	{
+	float: right;
+	margin-right: 22%;
+	border-radius: 50%;
+	background-image: url(https://img.icons8.com/office/80/000000/user.png);
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+	margin-top: -53px;
+}
+
+.sasha:hover	{
+	border: 2px solid #A66FFC;	
+	transition: 0.5s;
+	background-image: url(../img/mom.png);
+	width: 110px;
+	height: 110px;	
+}
+
+.miron:hover	{
+	background-image: url(https://cdn.icon-icons.com/icons2/1465/PNG/512/109baby2_100375.png);
+	border-left: 1px solid #A66FFC;
+	border-right: 1px solid #01E0B9;
+	transition: 0.5s;
+	background-size: cover;
+	width: 90px;
+	height: 90px;
+	
+}
+
+.ostap:hover	{
+	border: 1px solid #01E0B9;
+	transition: 0.5s;
+	background-image: url(../img/futher.png);
+	width: 110px;
+	height: 110px;
+}
+
+.allOstap	/* блок Остапа весь */{
+	position: relative;
+	height: 400px;
+	background-color: #f7f4f4;
+	font-family: 'El Messiri', sans-serif;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.textOstap	/* блок текста Остапа */{
+	float: right;
+	height: 60%;
+	width: 53%;
+	margin-top: 41px;
+}
+
+.photoOstap	/* блок фото Остапа */{
+	float: left;
+	height: 100%;
+	width: 45%;
+}
+
+.allSasha	/* блок Саши весь */{
+	position: relative;
+	height: 400px;
+	background-color: #f7f4f4;
+	font-family: 'El Messiri', sans-serif;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.photoSasha	/* блок фото Саши */{
+	float: left;
+	height: 400px;
+	width: 45%;
+}
+
+.textSasha	/* блок текста Саши */{
+	float: right;
+	height: 60%;
+	width: 53%;
+	margin-top: 31px;
+}
+
+.aboutUs 	{
+	font-family: 'El Messiri', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: -2px;
+}
+
+.forMusic /* подпись к плейлисту и плееру */	{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 17px;
+	background-color: ; 
+	margin: 0px;
+	color: black;
+	padding-bottom: 20px;
+}
+
+footer	{
+	height: 110px;
+	position: relative;
+}
+
+.lesha	/* ава Леши  */{
+	margin-left: 15%;
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	border-radius: 50%;
+	background-image: url(../img/lesha.png);
+	background-size: cover;
+}
+
+.vlad /* моя ава */	{
+	margin-left: 23%;
+	margin-right: 15%;
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	border-radius: 50%;
+	background-image: url(../img/vlad.png);
+	background-size: cover;
+}
+
+.leva	/* ава Левы */{
+	margin-right: 15%;
+	float: right;
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	border-radius: 50%;
+	background-image: url(../img/leva.png);
+	background-size: cover;
+}
+
+.lesha:hover	{
+	border: 2px solid #684da3;
+	transition: 0.3s;	
+}
+
+.vlad:hover	{
+	border: 2px solid #684da3;
+	transition: 0.3s;
+}
+
+.leva:hover	{
+	border: 2px solid #684da3;
+	transition: 0.3s;
+}
+
+
+
+/* ------НЕ ТРОГАТЬ!!!!---------АНИМАЦИЯ МИРОНА------------------ */
+.code {
+  color: #fff;
+  font-family: Avenir Next, Helvetica Neue, Helvetica, Tahoma, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+}
+.code span {
+  display: inline-block;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 500;
+          perspective: 500;
+  -webkit-font-smoothing: antialiased;
+}
+.code span::before,
+.code span::after {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  transition: all ease-out 0.3s;
+  content: attr(data-text);
+}
+.code span::before {
+  z-index: 1;
+  color: rgba(0,0,0,0.2);
+  -webkit-transform: scale(1.1, 1) skew(0deg, 20deg);
+          transform: scale(1.1, 1) skew(0deg, 20deg);
+}
+.code span::after {
+  z-index: 2;
+  color: #684da3;
+  text-shadow: -1px 0 1px #684da3, 1px 0 1px rgba(0,0,0,0.8);
+  -webkit-transform: rotateY(-40deg);
+          transform: rotateY(-40deg);
+}
+.code span:hover::before {
+  -webkit-transform: scale(1.1, 1) skew(0deg, 5deg);
+          transform: scale(1.1, 1) skew(0deg, 5deg);
+}
+.code span:hover::after {
+  -webkit-transform: rotateY(-10deg);
+          transform: rotateY(-10deg);
+}
+.code span + span {
+  margin-left: 0.3em;
+}
+@media (min-width: 20em) {
+  .code {
+    font-size: 2em;
+  }
+  .code span::before,
+  .code span::after {
+    display: block;
+  }
+}
+@media (min-width: 30em) {
+  .code {
+    font-size: 3em;
+  }
+}
+@media (min-width: 40em) {
+  .code {
+    font-size: 5em;
+  }
+}
+@media (min-width: 60em) {
+  .code {
+    font-size: 8em;
+  }
+}
+.animationMiron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #684da3;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+}
+/* ------НЕ ТРОГАТЬ!!!!--------------------------- */
+
+
+
+
+
+/* ------НЕ ТРОГАТЬ!!!!-------------АНИМАЦИЯ ПИСЬМА-------------- */
+.letter {
+  background-color: #f7f4f4;
+  text-align: center;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: 'Kelly Slab', cursive;
+  font-size: 14px;
+}
+.envelope {
+  width: 300px;
+  height: 150px;
+  background-color: #f7f4f4;
+  position: relative;
+}
+.envelope__check {
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.envelope__check:checked ~ .envelope__flap {
+  transition: z-index 0s 0.25s, -webkit-transform 0.25s 0s;
+  transition: transform 0.25s 0s, z-index 0s 0.25s;
+  transition: transform 0.25s 0s, z-index 0s 0.25s, -webkit-transform 0.25s 0s;
+  -webkit-transform: rotateX(-180deg);
+          transform: rotateX(-180deg);
+  z-index: 0;
+}
+.envelope__check:checked ~ .envelope__letter {
+  -webkit-transform: translateY(-110%);
+          transform: translateY(-110%);
+  transition: z-index 0s 0.5s, -webkit-transform 0.25s 0.25s;
+  transition: transform 0.25s 0.25s, z-index 0s 0.5s;
+  transition: transform 0.25s 0.25s, z-index 0s 0.5s, -webkit-transform 0.25s 0.25s;
+  z-index: 5;
+}
+.envelope__check:checked ~ .envelope__letter .letter__content:nth-child(2),
+.envelope__check:checked ~ .envelope__letter .letter__content:nth-child(3) {
+  transition: -webkit-transform 0.25s 0.5s;
+  transition: transform 0.25s 0.5s;
+  transition: transform 0.25s 0.5s, -webkit-transform 0.25s 0.5s;
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+}
+.envelope__flap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 75%;
+  transition: z-index 0s 0.5s, -webkit-transform 0.25s 0.5s;
+  transition: transform 0.25s 0.5s, z-index 0s 0.5s;
+  transition: transform 0.25s 0.5s, z-index 0s 0.5s, -webkit-transform 0.25s 0.5s;
+  -webkit-transform-origin: top center;
+          transform-origin: top center;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background: repeating-linear-gradient(-45deg, #c1ab8e, #c1ab8e 10px, #e74c3c 10px, #e74c3c 20px, #c1ab8e 20px, #c1ab8e 30px, #1e90ff 30px, #1e90ff 40px) 0 0/100% 5px no-repeat, #c1ab8e;
+  z-index: 4;
+  -webkit-clip-path: polygon(5% 40%, 50% 100%, 95% 40%, 100% 0, 0 0);
+          clip-path: polygon(5% 40%, 50% 100%, 95% 40%, 100% 0, 0 0);
+}
+.envelope__flap--inside {
+  background: #c1ab8e;
+  -webkit-backface-visibility: visible;
+          backface-visibility: visible;
+}
+.envelope__back {
+  height: 100%;
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background: repeating-linear-gradient(-45deg, #cebda6, #cebda6 10px, #e74c3c 10px, #e74c3c 20px, #cebda6 20px, #cebda6 30px, #1e90ff 30px, #1e90ff 40px) 0 100%/100% 5px no-repeat, repeating-linear-gradient(-45deg, #cebda6, #cebda6 10px, #e74c3c 10px, #e74c3c 20px, #cebda6 20px, #cebda6 30px, #1e90ff 30px, #1e90ff 40px) 0 100%/5px 100% no-repeat, repeating-linear-gradient(-45deg, #cebda6, #cebda6 10px, #e74c3c 10px, #e74c3c 20px, #cebda6 20px, #cebda6 30px, #1e90ff 30px, #1e90ff 40px) 100% 100%/5px 100% no-repeat, #cebda6;
+  -webkit-clip-path: polygon(80% 40%, 100% 0, 100% 100%, 0 100%, 0 0, 20% 40%);
+          clip-path: polygon(80% 40%, 100% 0, 100% 100%, 0 100%, 0 0, 20% 40%);
+}
+.envelope__back:after {
+  height: 100%;
+  width: 100%;
+  background: repeating-linear-gradient(-45deg, #c7b49a, #c7b49a 10px, #e74c3c 10px, #e74c3c 20px, #c7b49a 20px, #c7b49a 30px, #1e90ff 30px, #1e90ff 40px) 0 100%/100% 5px no-repeat, #c7b49a;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-clip-path: polygon(70% 10%, 100% 100%, 0 100%, 30% 10%);
+          clip-path: polygon(70% 10%, 100% 100%, 0 100%, 30% 10%);
+}
+.envelope__letter {
+  height: 90%;
+  width: 90%;
+  z-index: 1;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  transition: z-index 0s 0.25s, -webkit-transform 0.25s 0.25s;
+  transition: transform 0.25s 0.25s, z-index 0s 0.25s;
+  transition: transform 0.25s 0.25s, z-index 0s 0.25s, -webkit-transform 0.25s 0.25s;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.letter__content {
+  height: 100%;
+  width: 100%;
+  background-color: #f9fccc;
+  top: 0;
+  left: 0;
+  position: absolute;
+  text-align: justify;
+}
+.letter__content:nth-child(2),
+.letter__content:nth-child(3) {
+  transition: -webkit-transform 0.25s;
+  transition: transform 0.25s;
+  transition: transform 0.25s, -webkit-transform 0.25s;
+  top: 100%;
+  -webkit-transform-origin: top center;
+          transform-origin: top center;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+  -webkit-backface-visibility: visible;
+          backface-visibility: visible;
+  z-index: 2;
+}
+.letter__content:nth-child(3) {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.sign-off {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  font-size: 20px;
+  font-family: cursive;
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg);
+		background-color: #f7f4f4;
+}
+/* ------НЕ ТРОГАТЬ!!!!--------------------------- */
+
